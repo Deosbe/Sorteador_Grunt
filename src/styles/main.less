@@ -1,7 +1,7 @@
 @fontePrincipal: Roboto, sans-serif;
 @fonteDoTitulo: lobster, cursive;
 @corDoTexto: #fff;
-@corDeFundo: #eb3b5a;
+@corDeFundo: #242323;
 @corDoTextoDoBotao: #000;
 @corDoFundoDoBotao: #f7b731;
 
@@ -10,6 +10,9 @@ body {
     background-color: @corDeFundo;
     font-family: @fontePrincipal;
     color: @corDoTexto;
+    border-radius: 7%;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    margin: 0 360px;
 }
 
 h1 {
@@ -23,6 +26,11 @@ main{
     margin: 0 auto;
     font-size: 2em;
     text-align: center;
+    margin-bottom: 26px;
+
+    .resultado {
+        margin-bottom: 20px;
+    }
 }
 
 button{
@@ -33,7 +41,7 @@ button{
     margin-top: 16px;
     border-radius: 8px;
     background-color: @corDoFundoDoBotao;
-    color: @corDoTextoDoBotao;
+    color: #fff;
     font-family: @fontePrincipal;
 }
 
